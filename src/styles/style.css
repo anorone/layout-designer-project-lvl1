@@ -42,3 +42,25 @@ html {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+/* Headings */
+
+.heading {
+  font-weight: 400;
+  font-size: 60px;
+  font-family: 'Neucha', 'Comic Sans MS', cursive;
+  font-style: normal;
+  line-height: 1.2;
+}
+
+.heading-large {
+  font-size: 72px;
+}
+
+.heading-small {
+  font-size: 52px;
+}
+
+.heading-x-small {
+  font-size: 34px;
+}
