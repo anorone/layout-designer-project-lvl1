@@ -10,3 +10,35 @@
   --semi-white: #d7ccc0;
   --semi-black: #908d8b;
 }
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+.hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: none;
+  overflow: hidden;
+
+  font-size: 1px;
+  white-space: nowrap;
+
+  clip: rect(0, 0, 0, 0);
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
