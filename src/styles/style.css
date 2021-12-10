@@ -64,3 +64,43 @@ html {
 .heading-x-small {
   font-size: 34px;
 }
+
+/* Text contents */
+
+.text {
+  color: var(--basic-black);
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Open Sans', 'Tahoma', sans-serif;
+  font-style: normal;
+  line-height: 1.6;
+}
+
+.text-bright {
+  color: var(--primary-bright);
+}
+
+.text-lead {
+  font-weight: 400;
+  font-size: 34px;
+  font-family: 'Neucha', 'Comic Sans MS', cursive;
+  font-style: normal;
+  line-height: 1.2;
+}
+
+.topic-name {
+  font-weight: 400;
+  font-size: 24px;
+  font-family: 'Neucha', 'Comic Sans Ms', cursive;
+  font-style: normal;
+  line-height: 1.2;
+}
+
+.text-caption {
+  font-weight: 700;
+  font-size: 14px;
+  font-family: 'Open Sans', 'Tahoma', sans-serif;
+  font-style: normal;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
