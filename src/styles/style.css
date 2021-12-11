@@ -122,3 +122,18 @@ html {
 
   background-color: var(--primary-bright);
 }
+
+/* Themes */
+
+.theme-light {
+  color: var(--basic-black);
+
+  background-color: var(--theme-light);
+}
+
+.theme-dark {
+  color: var(--basic-white);
+
+  background-color: var(--theme-dark);
+}
+
