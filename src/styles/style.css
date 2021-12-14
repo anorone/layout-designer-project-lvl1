@@ -147,6 +147,7 @@ h4 {
   text-decoration: none;
 
   background-color: var(--primary-bright);
+  cursor: pointer;
 }
 
 .button:hover {
