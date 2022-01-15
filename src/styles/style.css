@@ -1,1 +1,12 @@
 /** CSS STYLE **/
+
+:root {
+  --basic-white: #fff;
+  --basic-black: #2a2626;
+  --primary-bright: #fe8a02;
+  --primary-dark: #42413c;
+  --theme-light: #f5f4f0;
+  --theme-dark: #b09a81;
+  --semi-white: #d7ccc0;
+  --semi-black: #908d8b;
+}
