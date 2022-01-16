@@ -137,3 +137,51 @@ html {
   background-color: var(--theme-dark);
 }
 
+/* Atomic styles */
+
+.pos-r { position: relative; }
+.m-0 { margin: 0; }
+.mb-15 { margin-bottom: 15px; }
+.o-h { overflow: hidden; }
+.brb-c { break-before: column; }
+
+/* MAIN */
+
+.page-section {
+  padding: 100px 0;
+}
+
+.bg-pattern {
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.main-heading {
+  position: relative;
+  z-index: 1;
+
+  width: 580px;
+  margin: 0;
+  margin-bottom: 200px;
+}
+
+.main-image {
+  position: absolute;
+  top: -45px;
+  right: -255px;
+}
+
+.text-columns {
+  column-count: 2;
+  column-gap: 30px;
+}
+
+.main-button {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 24px;
+
+  vertical-align: baseline;
+}
