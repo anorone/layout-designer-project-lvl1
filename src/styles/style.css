@@ -9,6 +9,7 @@
   --theme-dark: #b09a81;
   --semi-white: #d7ccc0;
   --semi-black: #908d8b;
+  --img-shadow: rgba(0, 0, 0, 0.15);
 }
 
 html {
@@ -142,7 +143,10 @@ html {
 .pos-r { position: relative; }
 .m-0 { margin: 0; }
 .mb-15 { margin-bottom: 15px; }
+.mb-30 { margin-bottom: 30px; }
 .o-h { overflow: hidden; }
+.ta-c { text-align: center; }
+.f-drsh { filter: drop-shadow(0 16px 32px var(--img-shadow)); }
 .brb-c { break-before: column; }
 
 /* MAIN */
@@ -184,4 +188,16 @@ html {
   padding: 12px 24px;
 
   vertical-align: baseline;
+}
+
+.video-section {
+  min-height: 814px;
+}
+
+.video-box {
+  position: absolute;
+  bottom: -88px;
+  left: 50%;
+
+  margin-left: -460px;
 }
