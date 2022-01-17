@@ -14,5 +14,9 @@
       "border-in-box-model": true,
       "empty-line-between-groups": true,
     }]
-  }
+  },
+  "ignoreFiles": [
+    "./src/styles/normalize.css",
+    "node_modules/"
+  ]
 }
