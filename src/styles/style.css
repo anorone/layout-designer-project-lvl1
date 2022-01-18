@@ -92,7 +92,7 @@ html {
 .topic-name {
   font-weight: 400;
   font-size: 24px;
-  font-family: 'Neucha', 'Comic Sans Ms', cursive;
+  font-family: 'Neucha', 'Comic Sans MS', cursive;
   font-style: normal;
   line-height: 1.2;
 }
@@ -141,12 +141,19 @@ html {
 /* Atomic styles */
 
 .pos-r { position: relative; }
+.d-b { display: block; }
 .m-0 { margin: 0; }
 .mb-15 { margin-bottom: 15px; }
 .mb-30 { margin-bottom: 30px; }
+.mb-40 { margin-bottom: 40px; }
 .o-h { overflow: hidden; }
+.c-white { color: var(--basic-white); }
 .ta-c { text-align: center; }
+.td-n { text-decoration: none; }
+.bgc-light { background-color: var(--theme-light); }
+.bgc-dark { background-color: var(--primary-dark); }
 .f-drsh { filter: drop-shadow(0 16px 32px var(--img-shadow)); }
+.lis-n { list-style: none; }
 .brb-c { break-before: column; }
 
 /* MAIN */
@@ -200,4 +207,56 @@ html {
   left: 50%;
 
   margin-left: -460px;
+}
+
+.nav-section {
+  padding-top: 200px;
+}
+
+.nav-heading {
+  position: absolute;
+
+  width: 350px;
+}
+
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list::before {
+  display: block;
+  width: 350px;
+
+  content: "";
+}
+
+.nav-item {
+  width: 350px;
+}
+
+.nav-item:hover {
+  background-color: var(--primary-bright);
+}
+
+.nav-item:hover * {
+  color: var(--basic-white);
+}
+
+.nav-link {
+  display: block;
+  height: 100%;
+  padding: 24px;
+}
+
+.specifier {
+  color: var(--primary-dark);
+  font-weight: 400;
+  font-size: 64px;
+  font-family: 'Neucha', 'Comic Sans MS', cursive;
+  font-style: normal;
+  line-height: 1;
 }
