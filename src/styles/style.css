@@ -132,6 +132,20 @@ html {
   background-color: var(--theme-light);
 }
 
+.theme-light .topic-name {
+  color: var(--semi-black);
+}
+
+.theme-light .bias-info {
+  order: 1;
+}
+
+.theme-light .text-caption {
+  color: var(--basic-white);
+
+  background-color: var(--theme-dark);
+}
+
 .theme-dark {
   color: var(--basic-white);
 
@@ -259,4 +273,23 @@ html {
   font-family: 'Neucha', 'Comic Sans MS', cursive;
   font-style: normal;
   line-height: 1;
+}
+
+.bias-layout {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.bias-image {
+  width: 578px;
+  height: 434px;
+}
+
+.bias-caption {
+  display: block;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+
+  column-span: all;
 }
