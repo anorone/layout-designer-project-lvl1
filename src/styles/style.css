@@ -203,6 +203,7 @@ h4 {
 .mb-40 { margin-bottom: 40px; }
 .o-h { overflow: hidden; }
 .c-white { color: var(--basic-white); }
+.c-black { color: var(--basic-black); }
 .ta-c { text-align: center; }
 .td-n { text-decoration: none; }
 .bgc-light { background-color: var(--theme-light); }
