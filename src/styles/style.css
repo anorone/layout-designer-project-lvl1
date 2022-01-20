@@ -150,6 +150,20 @@ html {
   background-color: var(--theme-dark);
 }
 
+.theme-dark .topic-name {
+  color: var(--semi-white);
+}
+
+.theme-dark .text-caption {
+  color: var(--theme-dark);
+
+  background-color: var(--basic-white);
+}
+
+.theme-dark .text {
+  color: var(--basic-white);
+}
+
 /* Atomic styles */
 
 .pos-r { position: relative; }
