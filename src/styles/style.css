@@ -335,3 +335,11 @@ h4 {
 
   column-span: all;
 }
+
+.bias-citation {
+  font-style: normal;
+}
+
+.bias-quote {
+  quotes: none;
+}
