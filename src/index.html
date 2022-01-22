@@ -211,28 +211,28 @@
     </section>
   </main>
 
-  <footer>
-    <section>
-      <h2>
-        <span>Хотите узнать больше?</span><br>
-        <span>Подпишитесь на обновления</span>
-      </h2>
-      <form action="#" method="POST">
-        <label>
-          <span>Электронная почта</span>
-          <input type="email" name="user-mail" placeholder="Ваша электронная почта" required>
-        </label>
-        <p>Подписываясь, вы принимаете <a href="#">правила сервиса</a></p>
-        <button type="submit">
-          <span>Подписаться</span>
-        </button>
-      </form>
-    </section>
+  <footer class="page-section">
+    <div class="container">
+      <section class="footer-layout bgc-dark">
+        <h2 class="heading footer-heading heading-x-small m-0 c-white">
+          <span>Хотите узнать больше?</span><br>
+          <span>Подпишитесь на обновления</span>
+        </h2>
+        <form class="footer-form" action="#" method="POST">
+          <label class="text form-label c-white fz-18" for="user-mail">Электронная почта</label>
+          <input class="text form-input fz-13" id="user-mail" type="email" name="user-mail" placeholder="Ваша электронная почта" required>
+          <p class="text form-text m-0 c-white fz-12">Подписываясь, вы принимаете <a class="c-white" href="#">правила сервиса</a></p>
+          <button class="button form-button bg-button" type="submit">
+            <span class="hidden">Подписаться</span>
+          </button>
+        </form>
+      </section>
 
-    <div>
-      <p>© 2020 Константин Константинопольский</p>
-      <p>По материалам статьи <a href="#">Yash Ranadive Cognitive Biases in Programming</a></p>
-      <p><a href="#">Курсы программирования Hexlet</a></p>
+      <div>
+        <p class="text m-0 mb-15 fz-14 ta-c">© 2020 Константин Константинопольский</p>
+        <p class="text m-0 mb-15 fz-14 ta-c">По материалам статьи <a href="#">Yash Ranadive Cognitive Biases in Programming</a></p>
+        <p class="text m-0 fz-14 ta-c"><a href="#">Курсы программирования Hexlet</a></p>
+      </div>
     </div>
   </footer>
 </body>

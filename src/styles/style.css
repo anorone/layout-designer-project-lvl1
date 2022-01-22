@@ -204,6 +204,10 @@ h4 {
 .o-h { overflow: hidden; }
 .c-white { color: var(--basic-white); }
 .c-black { color: var(--basic-black); }
+.fz-12 { font-size: 12px; }
+.fz-13 { font-size: 13px; }
+.fz-14 { font-size: 14px; }
+.fz-18 { font-size: 18px; }
 .ta-c { text-align: center; }
 .td-n { text-decoration: none; }
 .bgc-light { background-color: var(--theme-light); }
@@ -342,4 +346,53 @@ h4 {
 
 .bias-quote {
   quotes: none;
+}
+
+.footer-layout {
+  display: flex;
+  justify-content: space-between;
+  min-height: 190px;
+  margin-bottom: 76px;
+  padding: 40px 55px;
+}
+
+.footer-heading {
+  align-self: center;
+}
+
+.footer-form {
+  display: flex;
+  flex-flow: row wrap;
+  width: 485px;
+}
+
+.form-label {
+  flex-basis: 100%;
+  margin-bottom: 6px;
+}
+
+.form-input {
+  flex-grow: 1;
+  height: 50px;
+  padding: 15px;
+  border: none;
+}
+
+.form-text {
+  flex-basis: 100%;
+  order: 1;
+}
+
+.form-button {
+  flex: 0 0 65px;
+  width: 70px;
+  height: 50px;
+  padding: 12px 6px;
+}
+
+.bg-button {
+  background-image: url("../images/send.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
 }
