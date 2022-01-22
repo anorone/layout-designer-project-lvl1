@@ -269,12 +269,12 @@ h4 {
 }
 
 .video-section {
-  min-height: 814px;
+  min-height: 805px;
 }
 
 .video-box {
   position: absolute;
-  bottom: -88px;
+  bottom: -100px;
   left: 50%;
 
   margin-left: -460px;
