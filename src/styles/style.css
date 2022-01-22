@@ -9,6 +9,7 @@
   --theme-dark: #b09a81;
   --semi-white: #d7ccc0;
   --semi-black: #908d8b;
+  --link-unvisited: #1085c5;
   --img-shadow: rgba(0, 0, 0, 0.15);
 }
 
@@ -41,6 +42,10 @@ h4 {
   font-family: 'Neucha', 'Comic Sans MS', cursive;
   font-style: normal;
   line-height: 1.2;
+}
+
+:link {
+  color: var(--link-unvisited);
 }
 
 .hidden {
